@@ -77,8 +77,13 @@ This is not completely necessary, you may need one or none, depending on what yo
 - [ ] [Git installed](https://git-scm.com)
 - [ ] [Repl.it account](https://repl.it/~)
 - [ ] [UptimeRobot account](https://uptimerobot.com)
+- [ ] [Flask Installed (v1.1.2+)](https://pypi.org/project/Flask/)
 - [ ] [Visual Studio Code installed](https://code.visualstudio.com)
 - [ ] [MySQL Workbench installed](https://www.mysql.com/products/workbench/)
+
+### Guide Video
+
+If you speak spanish and you want to follow the simple steps with a video, you can [click here](https://youtu.be/yYHN8OkKZ1k).
 
 ### Steps
 
@@ -518,6 +523,7 @@ And last but not least, hosting. I feel like the method that used [freeCodeCamp]
 - [Info](https://github.com/JoshuaMeza/HollowBot/blob/master/code/modules/Info.py)
 - [Play](https://github.com/JoshuaMeza/HollowBot/blob/master/code/modules/Play.py)
 - [Wins](https://github.com/JoshuaMeza/HollowBot/blob/master/code/modules/Wins.py)
+- [Keep Alive](https://github.com/JoshuaMeza/HollowBot/blob/master/code/keepAlive.py)
 
 ## Use cases diagram
 
