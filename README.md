@@ -83,13 +83,13 @@ This is not completely necessary, you may need one or none, depending on what yo
 
 ### Guide Video
 
-If you speak spanish and you want to follow the simple steps with a video, you can [click here](https://youtu.be/yYHN8OkKZ1k).
+If you speak Spanish and you want to follow the simple steps with a video, you can [click here](https://youtu.be/yYHN8OkKZ1k).
 
 ### Steps
 
 1. **Creating a Bot**
 
-First of all, we are going to the [Discord Developer Portal](https://discord.com/developers/applications) to create our discord Bot.
+First of all, we are going to the [Discord Developer Portal](https://discord.com/developers/applications) to create our Discord Bot.
 
 At this moment we have to be in the following page:
 
@@ -121,7 +121,7 @@ Then, give it some basic permissions for now:
 
 <img src="https://github.com/JoshuaMeza/HollowBot/blob/master/Resources/scrn_09.png" width="100%">
 
-After that, copy the the link that appeared in the Scopes table and put it in your browser. You'll see a window that asks you if you want to add your recently created bot into a channel, choose one and continue:
+After that, copy the link that appeared in the Scopes table and put it in your browser. You'll see a window that asks you if you want to add your recently created bot into a channel, choose one and continue:
 
 <img src="https://github.com/JoshuaMeza/HollowBot/blob/master/Resources/scrn_10.png" width="100%">
 
@@ -139,9 +139,9 @@ To get your bot's token, return to the [Discord Developer Portal](https://discor
 
 <img src="https://github.com/JoshuaMeza/HollowBot/blob/master/Resources/scrn_13.png" width="100%">
 
-Well, it's time to open your favourite IDE and write some code. At first, open a folder, and create there two files, a `main.py` and a `.env`.
+Well, it's time to open your favorite IDE and write some code. At first, open a folder, and create there two files, a `main.py` and a `.env`.
 
-As I said to you, we need to keep secret our token, so, we can use "environment variables" to achieve that (in case you are saving all in a GitHub repository, add a `.gitignore` file and write inside `.env`), because it could be accesed easily in the code and can't be visible in most of the web repositories/IDE's (like [Repl.it](https://repl.it/~)).
+As I said to you, we need to keep secret our token, so, we can use "environment variables" to achieve that (in case you are saving all in a GitHub repository, add a `.gitignore` file and write inside `.env`), because it could be accessed easily in the code and can't be visible in most of the web repositories/IDE's (like [Repl.it](https://repl.it/~)).
 
 Into your `.env` file, write the following:
 
@@ -158,7 +158,7 @@ import os                         # Operative system package, for searching use
 from dotenv import load_dotenv    # Package which help us to find the environment variable
 ```
 
-Rigth now, we still doing nothing with the bot, let's try the following:
+Right now, we still doing nothing with the bot, let's try the following:
 
 ```python
 import discord
@@ -508,7 +508,7 @@ TOKEN=your_token_here
 
 And finally, do not forget to delete the imports to `Connector.py`, and do not include that file in the modules directory.
 
-All of this will change the way of storing your data, at this moment and forward the bot will create a `wins.txt` file in which, everytime a user wins the game, will append their user id instead of saving the victories amount in a database.
+All of this will change the way of storing your data, at this moment and forward the bot will create a `wins.txt` file in which, everytime a user wins the game, will append their id instead of saving the victories amount in a database.
 
 4. **Hosting your bot**
 
